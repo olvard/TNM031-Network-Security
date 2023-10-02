@@ -1,0 +1,66 @@
+olilu316 & emmze999
+
+LAB1
+
+1. Both server and browser is running 1.1 (HTTP/1.1)
+
+2. sv-SE,sv;q=0.9,en-US;q=0.8,en;q=0.7 (Svenska/Engelska)
+
+3. 10.241.202.10 is my address, 128.119.245.12 is the server address.
+
+4. Status Code: 304
+
+5. Date: Thu, 07 Sep 2023 08:58:45 GMT\r\n
+
+6. Capture Length: 293 bytes (2344 bits)
+
+7. No we do not see it.
+
+8.
+01a0   74 6d 6c 3e 0a 0a 43 6f 6e 67 72 61 74 75 6c 61   tml>..Congratula
+01b0   74 69 6f 6e 73 20 61 67 61 69 6e 21 20 20 4e 6f   tions again!  No
+01c0   77 20 79 6f 75 27 76 65 20 64 6f 77 6e 6c 6f 61   w you've downloa
+01d0   64 65 64 20 74 68 65 20 66 69 6c 65 20 6c 61 62   ded the file lab
+01e0   32 2d 32 2e 68 74 6d 6c 2e 20 3c 62 72 3e 0a 54   2-2.html. <br>.T
+01f0   68 69 73 20 66 69 6c 65 27 73 20 6c 61 73 74 20   his file's last 
+0200   6d 6f 64 69 66 69 63 61 74 69 6f 6e 20 64 61 74   modification dat
+0210   65 20 77 69 6c 6c 20 6e 6f 74 20 63 68 61 6e 67   e will not chang
+0220   65 2e 20 20 3c 70 3e 0a 54 68 75 73 20 20 69 66   e.  <p>.Thus  if
+0230   20 79 6f 75 20 64 6f 77 6e 6c 6f 61 64 20 74 68    you download th
+0240   69 73 20 6d 75 6c 74 69 70 6c 65 20 74 69 6d 65   is multiple time
+0250   73 20 6f 6e 20 79 6f 75 72 20 62 72 6f 77 73 65   s on your browse
+0260   72 2c 20 61 20 63 6f 6d 70 6c 65 74 65 20 63 6f   r, a complete co
+0270   70 79 20 3c 62 72 3e 0a 77 69 6c 6c 20 6f 6e 6c   py <br>.will onl
+0280   79 20 62 65 20 73 65 6e 74 20 6f 6e 63 65 20 62   y be sent once b
+0290   79 20 74 68 65 20 73 65 72 76 65 72 20 64 75 65   y the server due
+02a0   20 74 6f 20 74 68 65 20 69 6e 63 6c 75 73 69 6f    to the inclusio
+02b0   6e 20 6f 66 20 74 68 65 20 49 4e 2d 4d 4f 44 49   n of the IN-MODI
+02c0   46 49 45 44 2d 53 49 4e 43 45 3c 62 72 3e 0a 66   FIED-SINCE<br>.f
+02d0   69 65 6c 64 20 69 6e 20 79 6f 75 72 20 62 72 6f   ield in your bro
+02e0   77 73 65 72 27 73 20 48 54 54 50 20 47 45 54 20   wser's HTTP GET 
+02f0   72 65 71 75 65 73 74 20 74 6f 20 74 68 65 20 73   request to the s
+0300   65 72 76 65 72 2e 0a 0a 3c 2f 68 74 6d 6c 3e 0a   erver...</html>.
+
+9. Yes, If-Modified-Since: Thu, 07 Sep 2023 05:59:02 GMT\r\n, A date.
+
+10. Status Code: 304, Response Phrase: Not Modified, it did not return the contents because the file      was not modified. 
+
+11. 1
+
+12. [2 Reassembled TCP Segments (4861 bytes): #44(4146), #45(715)]
+
+13. Status Code: 200, Response Phrase: OK
+
+14. 1
+
+15. Since there is only one get request we assume they are downloaded parallel.
+
+16. Status Code: 200, Reponse Phrase: OK
+
+17. A field for authentication.
+
+
+
+
+
+
